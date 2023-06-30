@@ -40,3 +40,10 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+function copySkypeId() {
+        // Copy the text inside the text field
+    navigator.clipboard.writeText("live:.cid.927e726a343e8e9c");
+
+    // Alert the copied text
+    alert("Copied Skype ID to clipboard");
+}
